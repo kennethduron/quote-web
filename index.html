@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quote | RoaPrint Wraps</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="quote">
+
+        <div class="topline"></div>
+
+        <header class="header">
+            <h1>Quote</h1>
+            <img src="logo.png" class="logo">
+        </header>
+
+        <section class="client">
+            <div>
+                <p><b>Company Name</b> <input value="Bella Molina Landscaping LLC"></p>
+                <p><b>Contact</b> <input value="Lucio"></p>
+                <p><b>Email</b> <input value="bellamolinalandscaping@gmail.com"></p>
+                <p><b>Date</b> <input value="1-22-2025"></p>
+            </div>
+            <div>
+                <p><b>Mobile</b> <input value="973.216.8894"></p>
+                <p><b>Plate</b> <input></p>
+            </div>
+        </section>
+
+        <table>
+            <thead>
+                <tr>
+                    <th width="8%">Items</th>
+                    <th>Description</th>
+                    <th width="18%">Cost Per Unit</th>
+                    <th width="18%">Total Cost</th>
+                </tr>
+            </thead>
+
+            <tbody id="items">
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <b>Enclosed Trailer 20ft Full Wrap</b><br>
+                        <small>Design • Laminated Printing • Professional Installation</small>
+                    </td>
+                    <td><input class="price" value="3850"></td>
+                    <td class="rowTotal">$3,850.00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- ZONA INFERIOR (LA CLAVE DEL FIX) -->
+        <section class="bottom">
+
+            <div class="warranty">
+                <h2>ONE (1) YEAR WARRANTY</h2>
+                <p>12 month in-house warranty on all vehicle wrap products based on ink printed or peeling off.</p>
+                <p>*To start the process, we require a deposit of $300 No refundable.</p>
+                <p><b>Payment Methods:</b> Wire Deposit, Card, Zelle <b>908 566 2049</b></p>
+            </div>
+
+            <div class="totals">
+                <p>Sub Total: <span id="subtotal">$3850</span></p>
+                <p>Taxes: <span id="tax">$255.06</span></p>
+                <h2>Total: <span id="total">$4105.06</span></h2>
+                <p>First Deposit: $300</p>
+                <h3>Balance: <span id="balance">$3805.06</span></h3>
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            102 Speedwell ave, Morristown NJ 07960 — info@roaprintwraps.com
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
